@@ -1,0 +1,138 @@
+.navbar-container {
+    display: flex;
+    justify-content:  space-between;
+    padding: 20px;
+}
+
+.navbar-container UL {
+   list-style: none; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav .logo_container{
+    margin-top: 5px;
+}
+
+.nav_item, .nav_link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav .logo_nav {
+    width: 120px;
+}
+
+
+.nav li  {
+    margin: 0 10px;
+}
+
+.login_btn {
+    background-color: #ff4400e1;
+    padding: 7px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.main_section {
+    height: calc(100vh - 150px);
+    background-color: #ff4400e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+.main_section > div h1{
+    color: #fff !important;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+.btn {
+    padding: 10px;
+    margin-top: 15px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.main_section .button_main {
+    background: radial-gradient(#ff4400e1, rgba(0,0,0, .2));
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    text-shadow: 0 3px 0 #a12c02e1;
+}
+
+.ourServices {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ourServices > h1 {
+    font-size: 30px;
+    padding: 0%;
+    border-bottom: 1px solid #ff4400e1;
+}
+
+.ourServices .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.about {
+    margin-top: 30px;
+    background-color: #ff4400e1;
+    display: flex;
+    flex-direction: column;
+}
+
+.about > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+.aboutLogo {
+    height: 300px !important;
+}
+
+.left {
+    padding-left: 150px;
+}
+
+.right {
+    padding-left: 100px;
+}
+
+footer {
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}

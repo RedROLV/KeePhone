@@ -4,52 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="stylesheet" href="./Css/index.css">
     <title>Document</title>
 </head>
-
 <body>
-
-    <div class="navbar">
-
-        <div class="logo">
-            <img src="">  
-        </div>
-
-        <nav class="nav1">
-            <ul>
-                <li><a href="">INICIO</a></li>
-                <li><a href="">A EMPRESA</a></li>
-                <li><a href="">CONTATOS</a></li>            
+    <header>
+        <nav class="navbar-container">
+            <ul class="nav">
+                <li class="nav_item" class="logo_container"><img src="./Images/Logo_d.png" class="logo_nav"></li>
+                <li class="nav_item">Inicio</li>
+                <li class="nav_item">A empresa</li>
+                <li class="nav_item">Contatos</li>
+            </ul>
+            <ul class="nav">
+                <li class="nav_item"><a class="nav_link" href="./cadastro.html"> Cadastrar </a></li>
+                <li class="nav_item"><a class="login_btn" href="./login.html"> Login </a></li>
             </ul>
         </nav>
-
-        <nav class="nav2">
-            <ul>
-                <li><a href="">CADASTRAR</a></li>
-                <li><a href="">ENTRAR</a></li>
-            </ul>
-        </nav>
-
-    </div>
-  
-    <div class="retangulo1"></div>
-
-    <div class="texto1">VENHA PARA A KEEPHONE E TENHA SEU CELULAR NOVO EM FOLHA!</div>
-
-    <div class="retangulo2">
-
-        <div class="texto2"><a class="" href=""><u>PEDIR ORCAMENTO</u></a></div>
-
-        <div class="texto3"><u>NOSSOS SERVICOS</u></div>
-
-        <div class="texto4">CONSERTOS EM GERAL</div>
-
-        <div class="texto5">TROCA DE TELA</div>
-
-        <div class="texto6">CONECTOR DO CARREGADOR</div>
-
-    </div>
-
+    </header>
+    <main>
+        <section class="main_section">
+            <div>            
+                <h1> VENHA PARA A KEEPHONE <br> E TENHA SEU CELULAR <br> NOVO EM FOLHA!</h1> 
+                <button class="btn button_main">Pedir orçamento</button>
+            </div>
+            <div>
+                <img src="./Images/phone.png">
+            </div>
+        </section>
+        <section class="ourServices">
+            <h1>Nossos Serviços</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="container"><img src="" alt=""></div>
+                    <p class="text-ourservices">Consertos em geral</p>
+                </div>
+                <div class="card">
+                    <div class="container"><img src="" alt=""></div>
+                    <p class="text-ourservices">Trocas de vídro</p>
+                </div>
+                <div class="card">
+                    <div class="container"><img src="" alt=""></div>
+                    <p class="text-ourservices">conector do carregador</p>
+                </div>
+                <div class="card">
+                    <div class="container"><img src="" alt=""></div>
+                    <p class="text-ourservices">Entrada de fones de ouvido</p>
+                </div>
+            </div>
+        </section>
+        <aside class="about">
+            <h1>SOBRE NÓS</h1>
+            <div class="containers">
+                <div class="left">
+                    <img src="./Images/Logo.png" class="aboutLogo">
+                </div>
+                <div class="right">
+                    <article>
+                        <h3>Nosso Objetivo</h3>
+                        <p style="margin-bottom: 40px;">O nosso objetivo sera escrito e definido aqui eu estou <br> enchendo linguica para ver como vai ficar</p>
+                    </article>
+                    <article>
+                        <h3>O que fazemos ?</h3>
+                        <p>Aqui ficara o que nos fazemos na empresa, ou o que nao fazemos</p>
+                    </article>
+                </div>
+            </div>
+        </aside>
+        <footer>
+                <span> Direitos Autorais e &copy; copyright </span>
+        </footer>
+    </main>
 </body>
 </html>
