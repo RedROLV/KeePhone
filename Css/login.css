@@ -1,0 +1,50 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../images/a.png);
+ }
+
+ .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card {
+   opacity: .9;
+   background-color: #ffffff;
+   width: 500px ;
+
+   padding: 50px 60px;
+   border-radius: 5px;
+ }
+
+ .login_head {
+    margin-bottom: 40px;
+ }
+
+ .input {
+    width: 100%;
+    padding: 7px;
+    margin: 4px;
+    border: 1px solid #cecece;
+    outline: none;
+    border-bottom: 3px solid #ff4400e1;
+ }
+
+ h6 {
+    color: #888
+ }
+
+ .btn-submit {
+   margin: 10px 0 ;
+    width: 100%;
+    color: #fff;
+    background-color: #ff4400e1;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+ }
